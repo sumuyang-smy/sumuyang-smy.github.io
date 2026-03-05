@@ -17,7 +17,7 @@
         body {
             background-color: #f9f5e9;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.8;
         }
         
         /* 头部导航栏 */
@@ -69,7 +69,7 @@
             padding: 0 20px;
         }
         
-        /* 英雄区（删掉图片后调整布局） */
+        /* 英雄区 */
         .hero {
             margin-bottom: 3rem;
         }
@@ -123,13 +123,14 @@
             position: relative;
         }
         
+        /* 关键：删掉颜文字，换回最简洁的圆点 ✨ */
         .card li::before {
-            content: "✧٩(ˊωˋ*)و✧"; 
+            content: "◆"; 
             color: #ff7a45;
             position: absolute;
             left: 0;
             font-weight: normal;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         
         /* 制作步骤 */
@@ -198,7 +199,7 @@
             <nav>
                 <ul>
                     <li><a href="#intro">简介✨</a></li>
-                    <li><a href="#ingredients">配料</a></li>
+                    <li><a href="#ingredients">配料🥣</a></li>
                     <li><a href="#steps">制作步骤🍳</a></li>
                     <li><a href="#history">历史由来📜</a></li>
                 </ul>
@@ -208,7 +209,7 @@
 
     <!-- 主要内容 -->
     <div class="container">
-        <!-- 英雄区（删掉图片，只保留文字） -->
+        <!-- 英雄区 -->
         <section class="hero">
             <div class="hero-text">
                 <h1>杨枝甘露 🍹</h1>
@@ -226,10 +227,10 @@
             </div>
 
             <div class="card" id="ingredients">
-                <h2>核心配料</h2>
+                <h2>核心配料 🥣</h2>
                 <ul>
                     <li>芒果：优选台农芒或贵妃芒，果肉香甜🥭</li>
-                    <li>西柚：提供微酸口感，增加层次🍊</li>
+                    <li>西柚：提供微酸口感，丰富层次🍊</li>
                     <li>西米：Q弹口感，煮至透明后使用</li>
                     <li>椰奶/淡奶：提升奶香和顺滑度🥛</li>
                     <li>冰糖/蜂蜜：调节甜度🍯</li>
